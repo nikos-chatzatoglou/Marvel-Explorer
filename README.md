@@ -1,6 +1,6 @@
-# Instruction On How To Run This App
+# Instructions On How To Run This App
 
-This is a infinite scrolling web app for exploring Marvel's comics using Marvel API. Builded with Next.js, Tailiwind and axios. Bellow are the instructions for running it properly on your local machine.
+This is an infinite scrolling web app for exploring Marvel's comics using Marvel API. Builded with Next.js, Tailiwind and axios. Bellow are the instructions for running it properly on your local machine.
 
 ## Setting Up Environment Variables
 
