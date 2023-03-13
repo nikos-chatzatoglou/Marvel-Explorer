@@ -60,14 +60,14 @@ function ComicsPage({ comics }) {
 			</Head>
 			<header className='bg-[#202020] shadow'>
 				<div className='mx-auto py-6 px-4 sm:px-6 lg:px-8'>
-					<h1 className='text-2xl font-bold text-orange-500 text-center'>
+					<h1 className='text-3xl font-bold text-orange-500 text-center'>
 						Marvel Explorer
 					</h1>
 				</div>
 			</header>
 
 			<section>
-				<div className='py-2 m-4 grid gap-2 lg:grid-cols-4 md:grid-cols-2'>
+				<div className='py-2 m-4 grid gap-2 lg:grid-cols-5 md:grid-cols-2'>
 					{uniqueComics.map((comic) => (
 						<ComicsCard key={comic.id} comic={comic} />
 					))}
