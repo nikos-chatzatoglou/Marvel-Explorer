@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes gradient-y {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+.animate-cool-animation {
+  background: linear-gradient(to bottom, #0dff4a, #764ba2, #fc0db5);
+  background-size: 400% 400%;
+  animation: gradient-y 15s ease infinite;
+}
